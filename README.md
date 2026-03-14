@@ -29,8 +29,7 @@ This repository implements a multi-player bilateral negotiation benchmark for ev
 │   └── negotiation.py           # Offer search, value estimators, exact solvers
 ├── experiments/
 │   └── runner.py                # Single-game runner and multi-method experiment loop
-├── run_cloud.py                 # Modal cloud sweep runner
-├── run_local.py                 # Local parallel sweep runner (no Modal required)
+├── main.py                      # Local parallel sweep runner 
 └── README.md
 ```
 
