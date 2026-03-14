@@ -104,10 +104,6 @@ python run_local.py
 
 Results are saved to `./results/<size>_<shift>_games/<uuid>.pkl.gz`. Uses all available CPU cores via `joblib`.
 
-### Running on Modal (cloud)
-```bash
-modal run run_cloud.py
-```
 
 Results are saved to the `negotiation-results-vol` Modal Volume. To download:
 ```bash
