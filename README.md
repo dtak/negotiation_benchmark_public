@@ -4,7 +4,6 @@ Repo containing the code associated with "A Benchmark for Multi-Party Negotiatio
 
 
 
-````
 # Negotiation Benchmark
 
 Code for the paper:
@@ -22,7 +21,7 @@ This repository implements a multi-player bilateral negotiation benchmark for ev
 
 ## Repository Structure
 
-```
+
 .
 ├── config/
 │   └── game_configs.py          # Game generation and satisfaction mask utilities
