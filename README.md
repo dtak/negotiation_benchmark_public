@@ -73,9 +73,7 @@ Players negotiate in a shuffled round-robin order. On each turn, the current **p
 | `reward` | Greedy offer maximising proposer payoff; random partner selection |
 | `upper` | Greedy offer using an optimistic upper-bound value estimator |
 | `lower_tighter` | Greedy offer using a tighter pessimistic lower-bound estimator |
-| `dp_k` | Exact k-step dynamic programming lookahead |
 | `LLM_full` | LLM agent (GPT-4o-mini) selecting partner and offer from raw game state |
-| `reward_random` | Random partner with reward-based offer |
 
 Methods are passed as configuration dicts to the runner. The `how_fallback` key selects the value estimator; MCTS is used for partner selection when `n_sims > 0`.
 
