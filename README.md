@@ -3,7 +3,6 @@ Repo containing the code associated with "A Benchmark for Multi-Party Negotiatio
 
 
 
-Here is the raw markdown — copy everything between the triple backticks:
 
 ````
 # Negotiation Benchmark
